@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- style css -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/css.css">
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/css/owl.theme.default.css">
@@ -18,55 +17,58 @@
 </head>
 
 <body class="container-fluid">
- <!-- Nav -->
- <header class="header">
-    <nav class="navbar">
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg header shadow ">
+            
+    <a href="./index.html" class="navbar-brand text-success ">
         
-        <a href="./index.html" class="nav-logo"><img src="./assets/images/logo.png" alt="" style="width: 5rem;"></a>
+        <img src="./assets/images/logo.png" alt="" style="width: 70px;">
+    </a>
 
-        <ul class="nav-menu">
-            <li class="nav-item">
-                <a href="./index.html" class="nav-link">خانه</a>
-            </li>
-            <li class="nav-item dropdown" id="target">
-                <a href="#" class="nav-link " >فروشگاه</a>
-                <ul class="" >
-                    <li><a href="./kqzwallshop.html" class="">کاغذ دیواری</a></li>
-                    <li><a href="./postershop.html" class="">پوستر</a></li>
-                    <li><a href="./divarpooshshop.html" class="">دیوار پوش</a></li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a href="./aboutus.html" class="nav-link">درباره ما</a>
-            </li>
-            <li class="nav-item">
-                <a href="./contactus.html" class="nav-link">تماس با ما</a>
-            </li>
-            <li class="nav-item">
-                <a href="./soalat.html" class="nav-link">سوالات متداول</a>
-            </li>
-            <li class="nav-item">
-                <a href="./tasviehesab.html" class="nav-link">تسویه حساب</a>
-            </li>
-           
-        </ul>
+    <div class="collapse navbar-collapse" id="mynav">
+    <ul class="navbar-nav list-unstyled my-3 my-md-0">
+        <li class="nav-item mx-2">
+            <a href="./index.html" class="nav-link text-white">خانه</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a href="" class="nav-link text-white">گالری</a>
+        </li>
+        <li class="nav-item mx-2 dropdown">
+            <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">فروشگاه</a>
+            <div class="dropdown-menu">
+                <a href="./kqzwallshop.html" class="dropdown-item">کاغذ دیواری</a>
+                <a href="./postershop.html" class="dropdown-item">پوستر</a>
+                <a href="./divarpooshshop.html" class="dropdown-item">دیوار پوش</a>
+            </div>
+        </li>
+        <li class="nav-item mx-2">
+            <a href="./aboutus.html" class="nav-link text-white">درباره ما</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a href="./contactus.html" class="nav-link text-white">تماس با ما</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a href="./tasviehesab.html" class="nav-link text-white">تسویه حساب</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a href="./soalat.html" class="nav-link text-white">سوالات متداول</a>
+        </li>
+    </ul>
+    <form action="" class="form-inline me-auto">
+        <div class="input-group">
+            <a href="./sabadkharid.html" class="px-2"><i class='bx bx-shopping-bag text-white position-relative' style="font-size: 35px;"></i></a>
+            <a href="./login.html" class="px-2"><i class='bx bx-user text-white' style="font-size: 35px;"></i></a>
+            <input type="text" class="form-control rounded-1" placeholder="جستجو">
+            <div class="input-group-append">
+                <button class="btn btn-outline-dark mx-2">
+                    <i class='bx bx-search p-1 text-white'></i>
+                </button>
 
-        <div  id="nav-icons">
-           
-            <a href="./sabadkharid.html"><i class='bx bx-shopping-bag'></i></a>
-           
-            <a href="./login.html"><i class='bx bx-user'></i></a>
+            </div>
         </div>
-        
-
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-
-    </nav>
-</header>
+    </form>
+</div>
+</nav>
 <!-- End Nav -->
 
  <!-- Title section -->

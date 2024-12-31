@@ -15,61 +15,63 @@
     <link rel="stylesheet" href="./assets/css/ion.rangeSlider.min.css">
     <!-- style css -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/css.css">
 
     <title>فروشگاه | جزئیات محصول </title>
 </head>
 
 <body class="container-fluid">
-  <!-- Nav -->
-  <header class="header">
-    <nav class="navbar">
-        
-        <a href="./index.html" class="nav-logo"><img src="./assets/images/logo.png" alt="" style="width: 5rem;"></a>
+     <!-- Nav -->
+     <nav class="navbar navbar-expand-lg header shadow ">
+            
+        <a href="./index.html" class="navbar-brand text-success ">
+            
+            <img src="./assets/images/logo.png" alt="" style="width: 70px;">
+        </a>
 
-        <ul class="nav-menu">
-            <li class="nav-item">
-                <a href="./index.html" class="nav-link">خانه</a>
+        <div class="collapse navbar-collapse" id="mynav">
+        <ul class="navbar-nav list-unstyled my-3 my-md-0">
+            <li class="nav-item mx-2">
+                <a href="./index.html" class="nav-link text-white">خانه</a>
             </li>
-            <li class="nav-item dropdown" id="target">
-                <a href="#" class="nav-link " >فروشگاه</a>
-                <ul class="" >
-                    <li><a href="./kqzwallshop.html" class="">کاغذ دیواری</a></li>
-                    <li><a href="./postershop.html" class="">پوستر</a></li>
-                    <li><a href="./divarpooshshop.html" class="">دیوار پوش</a></li>
-                </ul>
+            <li class="nav-item mx-2">
+                <a href="" class="nav-link text-white">گالری</a>
             </li>
-            <li class="nav-item">
-                <a href="./aboutus.html" class="nav-link">درباره ما</a>
+            <li class="nav-item mx-2 dropdown">
+                <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">فروشگاه</a>
+                <div class="dropdown-menu">
+                    <a href="./kqzwallshop.html" class="dropdown-item">کاغذ دیواری</a>
+                    <a href="./postershop.html" class="dropdown-item">پوستر</a>
+                    <a href="./divarpooshshop.html" class="dropdown-item">دیوار پوش</a>
+                </div>
             </li>
-            <li class="nav-item">
-                <a href="./contactus.html" class="nav-link">تماس با ما</a>
+            <li class="nav-item mx-2">
+                <a href="./aboutus.html" class="nav-link text-white">درباره ما</a>
             </li>
-            <li class="nav-item">
-                <a href="./soalat.html" class="nav-link">سوالات متداول</a>
+            <li class="nav-item mx-2">
+                <a href="./contactus.html" class="nav-link text-white">تماس با ما</a>
             </li>
-            <li class="nav-item">
-                <a href="./tasviehesab.html" class="nav-link">تسویه حساب</a>
+            <li class="nav-item mx-2">
+                <a href="./tasviehesab.html" class="nav-link text-white">تسویه حساب</a>
             </li>
-           
+            <li class="nav-item mx-2">
+                <a href="./soalat.html" class="nav-link text-white">سوالات متداول</a>
+            </li>
         </ul>
+        <form action="" class="form-inline me-auto">
+            <div class="input-group">
+                <a href="./sabadkharid.html" class="px-2"><i class='bx bx-shopping-bag text-white position-relative' style="font-size: 35px;"></i></a>
+                <a href="./login.html" class="px-2"><i class='bx bx-user text-white' style="font-size: 35px;"></i></a>
+                <input type="text" class="form-control rounded-1" placeholder="جستجو">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-dark mx-2">
+                        <i class='bx bx-search p-1 text-white'></i>
+                    </button>
 
-        <div  id="nav-icons">
-           
-            <a href="./sabadkharid.html"><i class='bx bx-shopping-bag'></i></a>
-           
-            <a href="./login.html"><i class='bx bx-user'></i></a>
-        </div>
-        
-
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-
+                </div>
+            </div>
+        </form>
+    </div>
     </nav>
-</header>
 <!-- End Nav -->
 
  <!-- Title section -->
@@ -87,15 +89,15 @@
  
 <!-- Information -->
     <div class="row text-center">
-        <div class="col-lg-1 col-md-12 d-flex flex-column p-2  justify-content-around border-start">
+        <div class="col-1 d-flex flex-column p-2  justify-content-around border-start">
             <a href="" class="text-black"><i class='bx bx-heart' style="font-size: 1.5rem;"></i></a>
             <a href="" class="text-black"> <i class='bx bx-share-alt' style="font-size: 1.5rem;"></i></a>
             <a href="" class="text-black"> <i class='bx bx-bell ' style="font-size: 1.5rem;"></i></a>
         </div>
-        <div class="col-lg-5 col-md-12 ">
+        <div class="col-5 ">
             <img src="./assets/images/simpleandshik.jpg" alt="" style="height: 20rem;" class="shadow rounded rounded-4">
         </div>
-        <div class="col-lg-4 col-md-12 border-start">
+        <div class="col-4 border-start">
             <h4>کاغذ دیواری ساده و شیک مدل w154463</h4>
             <h5>290000 تومان <span style="font-size: 0.9rem;" class="text-secondary">متر مربع</span></h5>
             <div class="d-flex flex-column ">
@@ -105,8 +107,8 @@
                 <p style="font-size: 0.7rem;" class="text-black"><span class="text-secondary mx-2"><i class='bx bx-chevron-left' style="font-size: 1rem;"></i></span>قیمت براساس هر متر مربع</p>
             </div>
         </div>
-        <div class="col-lg-2 col-md-12 text-center d-flex flex-column flex-column-reverse">
-           <a href="./sabadkharid.html"> <button type="button" class="btn btn-success shadow"><span class="text-center"><i class='bx bx-cart mx-2' style="font-size: 1.2rem;"></i>افزودن به سبد خرید</span></button></a>
+        <div class="col-2 text-center d-flex flex-column flex-column-reverse">
+            <button type="button" class="btn btn-success shadow"><span class="text-center"><i class='bx bx-cart mx-2' style="font-size: 1.2rem;"></i>افزودن به سبد خرید</span></button>
         </div>
     </div>
    <hr>
@@ -139,42 +141,42 @@
 
 
  <!-- Features -->
-<section  class="colorfeatures mt-5 text-white mb-2 ">
+ <section id="products-page-features" class="bg-success mt-5 text-white">
     <div class="container px-4">
         <div class="row g-4 pb-3">
             <div class="col-sm-6 col-lg-3 feature">
                 <div class="d-flex flex-column flex-lg-row text-center text-lg-start p-2">
                     <div class="align-self-center"><i class="bx bxs-ship bx-lg"></i></div>
-                    <div class="ms-2 pt-3 text-center p-2">
+                    <div class="ms-2 pt-3 text-center">
                         <h6 class="h6 ">ارسال رایگان</h6>
-                        <p class="text-secondary">ارسال رایگان به سراسر کشور</p>
+                        <p class="">ارسال رایگان به سراسر کشور</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3 feature">
                 <div class="d-flex flex-column flex-lg-row text-center text-lg-start p-2">
                     <div class="align-self-center"><i class="bx bx-support bx-lg bx-lg "></i></div>
-                    <div class="ms-2 pt-3 text-center p-2">
+                    <div class="ms-2 pt-3 text-center">
                         <h6 class="h6">پشتیبانی 24/7</h6>
-                        <p class="text-secondary">همواره پاسخگوی شما هستیم</p>
+                        <p class="">همواره پاسخگوی شما هستیم</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3 feature">
                 <div class="d-flex flex-column flex-lg-row text-center text-lg-start p-2">
                     <div class="align-self-center"><i class="bx bx-credit-card bx-lg "></i></div>
-                    <div class="ms-2 pt-3 text-center p-2">
+                    <div class="ms-2 pt-3 text-center">
                         <h6 class="h6">پرداخت امن</h6>
-                        <p class="text-secondary">پرداخت 100 درصد امن</p>
+                        <p class="">پرداخت 100 درصد امن</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3 feature">
                 <div class="d-flex flex-column flex-lg-row text-center text-lg-start p-2">
                     <div class="align-self-center"><i class="bx bx-package bx-lg "></i></div>
-                    <div class="ms-2 pt-3 text-center p-2">
+                    <div class="ms-2 pt-3 text-center">
                         <h6 class="h6">امنیت خرید</h6>
-                        <p class="text-secondary">ضمانت بازگشت محصول</p>
+                        <p class="">ضمانت بازگشت محصول</p>
                     </div>
                 </div>
             </div>
